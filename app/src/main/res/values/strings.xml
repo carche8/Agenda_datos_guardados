@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application. Agenda datos guardados</string>
+    <string name="et_nombre">Campo recoge nombre de contacto</string>
+    <string name="et_datos">Campo recoge nombre de contacto</string>
+    <string name="btn_guardar">Campo recoge nombre de contacto</string>
+    <string name="btn_buscar">Campo recoge nombre de contacto</string>
+</resources>

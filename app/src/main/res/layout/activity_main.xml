@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="276dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Nombre de contacto"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_datos"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Datos de contacto"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_nombre" />
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="284dp"
+        android:onClick="guardar"
+        android:text="Guardar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_datos" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="76dp"
+        android:onClick="Buscar"
+        android:text="Buscar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_datos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
